@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Tomotaka Sakuma
-  description: role for dnsmasq
+  description: role for dnsmasq to support consul DNS feature
   # Some suggested licenses:
   # - BSD (default)
   # - MIT
