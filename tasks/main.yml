@@ -40,6 +40,7 @@
 
 - name: enable
   command: /bin/systemctl enable dnsmasq.service
+  when: ansible_distribution_major_version == "7"
   tags:
     - dnsmasq
     - dnsmasq.enable
